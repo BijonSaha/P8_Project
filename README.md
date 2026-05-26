@@ -18,12 +18,10 @@ This repository contains the full implementation for gesture classification usin
 ## Repository Structure
 rmg-vlm-cnn/
 │
-├── rmg_delta_generator.py   # Delta computation and heatmap generation (RdBu_r / coolwarm)
-├── VLMTest.py               # VLM inference pipeline (Ollama, reference set construction)
+├── rmg_delta_generator.py   # Delta heatmap generation(RdBu_r / coolwarm)
 ├── rmg_gemma3.py            # Gemma-3-12B inference pipeline
-├── rmg_delta_colab_vlm.py   # Combined mode (delta heatmap + frequency plot) inference
-├── OneGesture.py            # Single-gesture inspection and plotting utility
-├── analysis.py              # Confusion matrices, per-class and per-subject accuracy plots
+├── rmg_delta_colab_vlm.py   # qwen2.5vl:7B inference pipeline
+├── OneGesture.py            # S-parameter data gathering through VNA.
 │
 ├── figures/
 │   └── reference/           # Reference heatmaps — Participant 1, nominal position

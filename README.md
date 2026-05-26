@@ -16,6 +16,7 @@ This repository contains the full implementation for gesture classification usin
 ---
 
 ## Repository Structure
+```
 rmg-vlm-cnn/
 │
 ├── rmg_delta_generator.py   # Delta heatmap generation(RdBu_r / coolwarm)
@@ -28,8 +29,9 @@ rmg-vlm-cnn/
 │       ├── fist_iter0.png
 │       ├── grasp_iter0.png
 │       └── ...              # All 11 gesture reference images
-│
+...
 └── README.md
+```
 ## Dataset
 
 - **Participants:** 3 (1 reference, 2 test)
@@ -80,6 +82,7 @@ python rmg_delta_colab_vlm.py  # Combined mode
 ---
 
 ## Requirements
+```
 python >= 3.10
 torch
 numpy
@@ -89,7 +92,7 @@ scikit-learn
 ollama
 Pillow
 pathlib
-
+```
 Install:
 ```bash
 pip install -r requirements.txt
@@ -114,7 +117,7 @@ pip install -r requirements.txt
 
 
 @mastersthesis{rmg_aau_2026,
-  author     = {Bijon annd Riccardo}
+  author     = {Bijon and Riccardo}
   title      = {Radiomyography-Based Gesture Classification Using VLM
                 In-Context Learning and Multi-Task CNN},
   school     = {Aalborg University},
